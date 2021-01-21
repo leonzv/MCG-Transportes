@@ -1,0 +1,11 @@
+import React from 'react';
+import 'react-native-gesture-handler';
+import {View, Text} from 'react-native';
+
+export default function About(props) {
+  return (
+    <View>
+      <Text>Sobre!</Text>
+    </View>
+  );
+}
